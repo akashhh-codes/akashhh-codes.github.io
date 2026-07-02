@@ -386,7 +386,7 @@
     </button>
     <nav class="links" id="navLinks">
       <a href="#about">About</a>
-      <a href="#experience">Research</a>
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#education">Education</a>
@@ -402,8 +402,8 @@
   <div class="hero-inner wrap">
     <div class="eyebrow">Data Science · Machine Learning · Computer Vision</div>
     <h1>Turning raw data into<br><span class="grad">measurable results.</span></h1>
-    <div class="role">BSc (Hons.) Data Science &amp; AI &nbsp;·&nbsp; Indian Institute of Technology, Guwahati</div>
-    <p class="lede">I'm <b>Akash Chauhan</b> — I build machine-learning systems that find structure in messy, real-world data: images, text, and transactions. I care less about the buzzwords and more about <b>the numbers a model actually moves.</b></p>
+    <div class="role">Python Intern @ Delphic Global &nbsp;·&nbsp; BSc (Hons.) Data Science &amp; AI @ IIT Guwahati</div>
+    <p class="lede">I'm <b>Akash Chauhan</b> — I build machine-learning systems and backend automation tools that find structure in messy, real-world data. I care less about the buzzwords and more about <b>the numbers a production system actually moves.</b></p>
 
     <div class="hero-actions">
       <a class="btn btn-primary" href="#projects">
@@ -425,6 +425,8 @@
 <!-- ============================ ABOUT ============================ -->
 <section id="about" aria-label="About">
   <div class="wrap about-grid">
+    
+    <!-- Left Column: Text Content -->
     <div class="about-copy reveal">
       <div class="sec-head" style="margin-bottom:28px">
         <div class="kicker">// 01 — about</div>
@@ -432,10 +434,11 @@
       </div>
       <p>My work starts where most projects skip ahead: understanding the data. Before training anything, I run the exploratory analysis, test which features are <b>statistically</b> doing the work, and project the feature space with PCA and t-SNE so I know what the model is actually learning.</p>
       <p>That habit comes from research. At IIT Guwahati's <b>SPIN Lab</b>, I rebuilt a computer-vision classification pipeline from feature engineering up — and pushed multi-class accuracy from <b>52.5% to 64.7%</b>. The same discipline shows up across my projects: a fake-news classifier at <b>94%+ accuracy</b>, deployed and live.</p>
-      <p>I'm currently a third-year Data Science &amp; AI undergraduate, open to internships and roles where the goal is to ship models that hold up against real numbers.</p>
-      <div class="sign">// based in India · available 2026</div>
-    </div>
+      <p>I'm currently a third-year Data Science &amp; AI undergraduate at IIT Guwahati and a <b>Python Intern at Delphic Global</b>, focused on shipping code, automation, and models that hold up against real numbers.</p>
+      <div class="sign">// based in India · Interning at Delphic Global</div>
+    </div> <!-- This closes the text block cleanly before the card begins -->
 
+    <!-- Right Column: Model Card Component -->
     <div class="card modelcard reveal">
       <div class="mc-top">
         <span>model_card.json</span>
@@ -450,20 +453,57 @@
         <span class="pill">Python</span><span class="pill">scikit-learn</span><span class="pill">OpenCV</span><span class="pill">Pandas</span>
       </div></div>
       <div class="mc-row"><div class="k">training</div><div class="vv">BSc (Hons.) DS&amp;AI, IIT Guwahati · 2023–present</div></div>
-      <div class="mc-row"><div class="k">status</div><div class="vv" style="color:var(--c-teal)">Open to internships &amp; DS roles</div></div>
+      <div class="mc-row"><div class="k">status</div><div class="vv" style="color:var(--c-teal)">Python Intern @ Delphic Global</div></div>
     </div>
-  </div>
+
+  </div> <!-- Closes the wrap about-grid container -->
 </section>
 
 <!-- ============================ EXPERIENCE ============================ -->
 <section id="experience" aria-label="Research">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="kicker">// 02 — research</div>
-      <h2>Research that shows its working.</h2>
-      <p>A computer-vision research internship where the deliverable wasn't a demo — it was a measured improvement and a defensible analysis.</p>
+      <div class="kicker">// 02 — experience &amp; research</div>
+      <h2>Experience &amp; research that shows its working.</h2>
+      <p>Applying engineering discipline and machine learning to build scalable, data-driven systems.</p>
     </div>
 
+    <!-- Delphic Global Internship (New Entry) -->
+    <div class="xp reveal" style="margin-bottom: 32px;">
+      <div class="xp-head">
+        <div>
+          <div class="org">Delphic Global</div>
+          <div class="subtitle">Python Intern</div>
+        </div>
+        <div class="when">Jun 2026 — Present (3 mos.)</div>
+      </div>
+
+      <div class="xp-body">
+        <ul>
+          <li>Developing and optimizing scalable <b>Python automation scripts</b> and robust backend data processing routines.</li>
+          <li>Refactoring data ingestion workflows to minimize execution latency and enhance codebase reliability.</li>
+          <li>Collaborating with engineering teams to integrate modules, write clean documentation, and maintain version control via Git.</li>
+        </ul>
+
+        <div class="metric-panel">
+          <div class="mp-title">target metrics &amp; focus</div>
+          <div class="bar-row">
+            <div class="bl"><span class="nm">Pipeline automation target</span><span class="pc">100%</span></div>
+            <div class="track"><div class="fill" data-w="100" style="background:var(--c-teal)"></div></div>
+          </div>
+          <div class="bar-row" style="margin-bottom:0">
+            <div class="bl"><span class="nm">Script execution efficiency</span><span class="pc">Optimizing</span></div>
+            <div class="track"><div class="fill" data-w="85" style="background:var(--c-blue)"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">Automation</span><span class="tag">Data Pipelines</span><span class="tag">Script Optimization</span><span class="tag">Git</span>
+      </div>
+    </div>
+
+    <!-- SPIN Lab Internship (Existing Entry) -->
     <div class="xp reveal">
       <div class="xp-head">
         <div>
@@ -512,7 +552,6 @@
     </div>
   </div>
 </section>
-
 <!-- ============================ PROJECTS ============================ -->
 <section id="projects" aria-label="Projects">
   <div class="wrap">
